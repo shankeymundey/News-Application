@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backfive"
+    tools:context="com.example.yogesh.news.Firstpage">
+
+
+    <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/mike"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="140dp"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/skynews"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select category of news:"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="40dp"/>
+    <ScrollView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginLeft="20dp"
+    android:src="@drawable/business"
+    android:onClick="businessbtn"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sport"
+        android:onClick="sportbtn"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:onClick="healthbtn"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/health" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/tech"
+        android:onClick="technologybtn"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/e"
+        android:onClick="entertainmentbtn"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:onClick="sciencebtn"
+        android:src="@drawable/s"/>
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
